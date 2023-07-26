@@ -1,0 +1,232 @@
+@import url(./style-null.css);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  font-family: Poppins, serif;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+  padding: 0 133px;
+}
+
+.header-content__logo {
+  color: #002265;
+  font-size: 25px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.header-content__logo span {
+  color: #14279B;
+  font-weight: 400;
+}
+
+.header-content__logo:hover {
+  text-shadow: 0px 0px 15px #002265;
+}
+
+.header-content__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-content__links {
+  display: flex;
+  justify-content: space-between;
+  width: 434px;
+  margin-right: 45px;
+}
+
+.header-content__link {
+  color: #212121;
+  font-size: 25px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.header-content__link:hover {
+  text-decoration: underline;
+}
+
+.header-content__button {
+  font-size: 25px;
+  line-height: 36px;
+  font-weight: 600;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 10px;
+  background-color: #608AF5;
+  cursor: pointer;
+}
+
+.main-content {
+  padding: 0 133px;
+}
+
+.title-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 118px;
+}
+
+.title-content__info {
+  margin-right: 56px;
+}
+
+.title-content__title {
+  color: #002265;
+  font-size: 35px;
+  line-height: 75px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.title-content__title span {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.title-content__text {
+  color: #082032;
+  font-size: 23px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.title-content__img {
+  max-width: 501px;
+  width: 100%;
+}
+
+.passions-content {
+  margin-bottom: 168px;
+}
+
+.contact-content__title,
+.portfolio-content__title,
+.passions-content__title {
+  text-align: center;
+  color: #14279B;
+  font-weight: 400px;
+  font-size: 35px;
+  margin-bottom: 60px;
+}
+.contact-content__title span,
+.portfolio-content__title span,
+.passions-content__title span {
+  font-weight: 600;
+  color: #002265;
+}
+
+.passions-content__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.passions-content__item {
+  width: 347px;
+  height: 280px;
+  border-radius: 13px;
+  padding: 20px;
+  box-shadow: 0px 5px 26px 5px rgba(0, 0, 0, 0.168627451);
+  text-align: center;
+}
+
+.passions-content__item-img {
+  margin-bottom: 18px;
+}
+
+.passions-content__item-name {
+  font-weight: 400px;
+  font-size: 25px;
+  margin-bottom: 13px;
+}
+.passions-content__item-name span {
+  font-weight: 600;
+}
+
+.passions-content__item-text {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.portfolio-content {
+  margin-bottom: 168px;
+  width: 100%;
+}
+
+.portfolio-content__list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.portfolio-content__item img {
+  width: 100%;
+}
+
+.contact-content__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-content__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 236px;
+  width: 240px;
+}
+
+.contact-content__item-background {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+.contact-content__item-background::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 160px;
+  width: 160px;
+  background: url(../img/background-blue.png) left top no-repeat;
+}
+
+.contact-content__item-img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+}
+
+.contact-content__item-name {
+  color: #3F3D56;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.footer-content__img-body {
+  position: relative;
+  top: 55px;
+  z-index: -1;
+}
+
+.footer-content__img {
+  width: 100%;
+}
+
+.footer-content__text {
+  font-size: 35px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
