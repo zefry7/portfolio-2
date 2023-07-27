@@ -10,5 +10,6 @@ window.addEventListener("resize", () => {
     if(screen.width > 768) {
         headerContentMenu.classList.remove("header-content__menu_visibility");
         document.body.classList.remove("block-lock");
+        menuBurger.classList.remove("menu-burger_active");
     }
 })
